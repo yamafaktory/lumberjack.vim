@@ -74,14 +74,14 @@ let s:grey3  = { 'gui': '#2e2e2e', 'cterm': '2'  }
 let s:grey4  = { 'gui': '#303030', 'cterm': '11' }
 let s:grey5  = { 'gui': '#757475', 'cterm': '10' }
 let s:grey6  = { 'gui': '#858585', 'cterm': '6'  }
-let s:red    = { 'gui': '#bd2a2a', 'cterm': '12'  }
+let s:red    = { 'gui': '#bd2a2a', 'cterm': '12' }
 let s:brown1 = { 'gui': '#b56124', 'cterm': '8'  }
 let s:brown2 = { 'gui': '#947463', 'cterm': '3'  }
 let s:brown3 = { 'gui': '#c76440', 'cterm': '9'  }
 let s:green1 = { 'gui': '#5d875d', 'cterm': '5'  }
 let s:green2 = { 'gui': '#9acd32', 'cterm': '4'  }
 let s:blue   = { 'gui': '#9bcbeb', 'cterm': '13' }
-let s:yellow = { 'gui': '#f0e95d', 'cterm': '7' }
+let s:yellow = { 'gui': '#f0e95d', 'cterm': '7'  }
 let s:white1 = { 'gui': '#fffefc', 'cterm': '14' }
 let s:white2 = { 'gui': '#ffffff', 'cterm': '15' }
 
@@ -90,7 +90,7 @@ call s:r('Boolean',        { 'fg': s:green2 })
 call s:r('Character',      { 'fg': s:blue   })
 call s:r('Comment',        { 'fg': s:grey4  })
 call s:r('Constant',       { 'fg': s:yellow })
-call s:r('Conditional',    { 'fg': s:red  })
+call s:r('Conditional',    { 'fg': s:red    })
 call s:r('Cursor',         { 'bg': s:blue,   'fg': s:grey1  })
 call s:r('CursorLine',     { 'bg': s:grey2  })
 call s:r('CursorLineNR',   { 'fg': s:yellow })
@@ -100,7 +100,7 @@ call s:r('Directory',      { 'fg': s:brown3 })
 call s:r('Error',          { 'fg': s:red })
 call s:r('Exception',      { 'fg': s:yellow })
 call s:r('Folded',         { 'bg': s:grey2,  'fg': s:yellow })
-call s:r('Function',       { 'fg': s:blue })
+call s:r('Function',       { 'fg': s:blue   })
 call s:r('Identifier',     { 'fg': s:brown1 })
 call s:r('IncSearch',      { 'bg': s:blue,   'fg': s:grey1  })
 call s:r('Keyword',        { 'fg': s:red    })
