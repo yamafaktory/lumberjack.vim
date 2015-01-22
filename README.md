@@ -18,6 +18,7 @@
  \                                \||
  /                                 \|
 ```
+![lumberjack.vim](http://i.imgur.com/MHlS7Kb.png)
 # lumberjack.vim
 lumberjack.vim is a bearded Vim color scheme based on some classic colors associated with the logging industry.
 
