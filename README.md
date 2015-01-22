@@ -25,7 +25,7 @@ lumberjack.vim is a bearded Vim color scheme based on some classic colors associ
 This scheme should work on 256-color terminals and in GVim, even if you are a hipster.
 
 ## Installation
-You can use your favorite plugin manager or go with the awesome [vim-plug](https://github.com/junegunn/vim-plug) then do the following:
+You can use your favorite plugin manager or go with the awesome [vim-plug](https://github.com/junegunn/vim-plug) and then do the following:
 
 1. Add `Plug 'yamafaktory/lumberjack.vim'` to .vimrc
 2. Run `:PlugInstall`
